@@ -1,0 +1,19 @@
+THEORY
+ - predict values using linear regression line (y = b0 + b1x) 
+ - for example, predicting how many medals won at olympics based on athelete #
+    - y(hat) = predicted medals
+    - b0 = y-intercept
+    - b1 = coefficient for athletes
+    - x = athlete count
+ -  actual equation: y = b0 + b1x + e (error)
+    - take equations and put into matrix form (row x columns)
+ - building the linear regression formula
+    - y = XB + e (XB are matricies)
+    - y = XB (drop e bc we want error to be as small as possible)
+    - XTy = XTXB (trying to get rid of x matrix, mult by transpose)
+    - (XTX)-1XTy = (XTX)-1 XTX B (multiply both sides by (XTX)-1)
+    - (XTX)-1XTy = IB ((XTX)-1 XTX = I)
+    - (XTX)-1XTy = B 
+    - B = (XTX)-1XTy (final formula)
+ - with multiple x values (ie consider # of athletes and # prev medals)
+    - X matrix is wider
