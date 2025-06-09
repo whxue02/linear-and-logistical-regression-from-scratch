@@ -1,0 +1,18 @@
+THEORY
+ - logistical for binary classification/multi-class classification
+ - uses signmoid (1/ (1+ e^-z)) to get a probablilty 
+    - y = h(x) = 1/ (1+e^-wx+b)
+ - instead of MSE, uses cross entropy
+ - gradient descent: adjust parameters (weights and biases) to reduce
+    a cost function. (eventually converges to minimum)
+    - w = w - a * dw
+    - b = b - a * db
+
+STEPS
+ - training:
+    - inialize weights and bias as zero
+ - given a data point:
+    - predict result using y = h(x) = 1/ (1+e^-wx+b)
+    - calculate error
+    - use gradient decent to figure out new weight and bias
+    - repeat 
