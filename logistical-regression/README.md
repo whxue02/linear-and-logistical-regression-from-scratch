@@ -54,7 +54,7 @@ pip install numpy scikit-learn matplotlib
 1. Clone the repo:
 ```bash
 git clone https://github.com/whxue02/linear-and-logistical-regression-from-scratch.git
-cd logistic-regression-scratch
+cd logistic-regression
 ```
 
 2. Run the main script:
