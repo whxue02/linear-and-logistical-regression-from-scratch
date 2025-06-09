@@ -1,4 +1,4 @@
-# 🏅 Olympic Team Medals Predictor — Linear Regression from Scratch
+# Linear Regression from Scratch - Olympic Team Medals Predictor 
 
 This project implements **multivariate linear regression** using only NumPy to predict how many **Olympic medals** a country will win based on:
 - Number of athletes sent
